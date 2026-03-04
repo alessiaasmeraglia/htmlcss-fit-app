@@ -79,6 +79,16 @@
 	font-weight: bold;
 }
 
+/*Richiesta 11-12: Migliorie alla navigazione*/
+.nav-item {
+    transition: color 0.3s ease;
+}
+.nav-item:hover,
+.nav-item:first-child {
+    background-color: #3498db;
+    color: white;
+}
+
 /*Richiesta 13: Virgolette alla citazione
 
 Da sistemare*/
@@ -100,3 +110,4 @@ Da sistemare*/
     right: 10px;
     bottom: 0;
 }
+

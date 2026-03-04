@@ -43,11 +43,16 @@
 }
 
 /*Richiesta 7-8: Focus sui campi input*/
+.goal-input-group input,
+.goal-input-group select {
+	transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
 .goal-input-group input:focus,
 .goal-input-group select:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.2);
 }
 
 /*Richiesta 9: Miglioramenti al button*/
@@ -58,20 +63,20 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 .save-btn:hover {
     transform: translateY(-2px);
-    background-color: #2980b9;
+    background-color: #5a6fe0;
     color: white;
-    box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
+    box-shadow: 0 8px 18px rgba(102, 126, 234, 0.35);
 }
 
 /*Richiesta 10: Percentuale nella barra di progresso*/
 .progress-fill::after {
-    content: "💪 65%";
+    content: "65%";
     position: absolute;
-    right: 10px;
+    right: 8px;
     top: 50%;
     transform: translateY(-50%);
     color: white;
@@ -81,12 +86,12 @@
 
 /*Richiesta 11-12: Migliorie alla navigazione*/
 .nav-item {
-    transition: color 0.3s ease;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 .nav-item:hover,
 .nav-item:first-child {
-    background-color: #3498db;
-    color: white;
+    background: #243447;
+    color: #667eea;
 }
 
 /*Richiesta 13: Virgolette alla citazione

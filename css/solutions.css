@@ -49,3 +49,20 @@
     border-color: #3498db;
     box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
+
+/*Richiesta 9: Miglioramenti al button*/
+.save-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.save-btn:hover {
+    transform: translateY(-2px);
+    background-color: #2980b9;
+    color: white;
+    box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
+}

@@ -36,3 +36,8 @@
 	border-left-color: #2ecc71;
 	background: #eefaf2;
 }
+
+/*Richiesta 6*/
+.exercise-item:nth-child(even) .exercise-name::before {
+	content: "⚡ ";
+}

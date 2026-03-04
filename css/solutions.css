@@ -1,10 +1,10 @@
-/*Richiesta 1*/
+/*Richiesta 1: Icona fuoco nella prima stat card*/
 .stats-container .stats-grid:first-child .stat-number::before {
 	content: "🔥";
 	display: block;
 }
 
-/*Richiesta 2*/
+/*Richiesta 2: Evidenziare la terza stat card*/
 .stats-container .stats-grid:nth-child(3) {
 	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -14,7 +14,7 @@
 	color: white;
 }
 
-/*Richiesta 3*/
+/*Richiesta 3: Effetto hover sulle stat cards*/
 .stats-grid {
 	transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -24,20 +24,28 @@
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
 
-/*Richiesta 4*/
+/*Richiesta 4: Evidenziare il secondo piano allenamento*/
 .workout-plan:nth-of-type(2) {
 	border-left: 5px solid #f39c12;
 	background: #fff8cc;
 }
 
-/*Richiesta 5*/
+/*Richiesta 5: Bordi verdi per primo e ultimo esercizio*/
 .exercise-item:first-child,
 .exercise-item:last-child {
 	border-left-color: #2ecc71;
 	background: #eefaf2;
 }
 
-/*Richiesta 6*/
+/*Richiesta 6: Icona fulmine negli esercizi pari*/
 .exercise-item:nth-child(even) .exercise-name::before {
 	content: "⚡ ";
+}
+
+/*Richiesta 7-8: Focus sui campi input*/
+.goal-input-group input:focus,
+.goal-input-group select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }

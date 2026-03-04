@@ -1,4 +1,31 @@
+/*Richiesta 1*/
 .stats-container .stats-grid:first-child .stat-number::before {
 	content: "🔥";
 	display: block;
+}
+
+/*Richiesta 2*/
+.stats-container .stats-grid:nth-child(3) {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stats-container .stats-grid:nth-child(3) .stat-number,
+.stats-container .stats-grid:nth-child(3) .stat-label {
+	color: white;
+}
+
+/*Richiesta 3*/
+.stats-grid {
+	transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stats-grid:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/*Richiesta 4*/
+.workout-plan:nth-of-type(2) {
+	border-left: 5px solid #f39c12;
+	background: #fff8cc;
 }

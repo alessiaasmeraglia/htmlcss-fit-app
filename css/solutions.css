@@ -66,3 +66,15 @@
     color: white;
     box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
 }
+
+/*Richiesta 10: Percentuale nella barra di progresso*/
+.progress-fill::after {
+    content: "💪 65%";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+	font-size: 0.75rem;
+	font-weight: bold;
+}

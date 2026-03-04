@@ -1,0 +1,4 @@
+.stats-container .stats-grid:first-child .stat-number::before {
+	content: "🔥";
+	display: block;
+}

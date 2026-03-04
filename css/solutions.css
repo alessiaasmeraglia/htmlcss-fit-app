@@ -78,3 +78,25 @@
 	font-size: 0.75rem;
 	font-weight: bold;
 }
+
+/*Richiesta 13: Virgolette alla citazione
+
+Da sistemare*/
+.quote-box::before, 
+.quote-box::after {
+    content: "“";
+    font-size: 3.5rem;
+    color: #ffffff;
+    position: absolute;
+   
+}
+
+.quote-box::before {
+    left: 10px;
+    top: 8px;
+}
+
+.quote-box::after {
+    right: 10px;
+    bottom: 0;
+}
